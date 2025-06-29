@@ -6,7 +6,7 @@
   <link href="https://www.fomal.cc/atom.xml" rel="self"/>
   
   <link href="https://www.fomal.cc/"/>
-  <updated>2025-06-29T06:58:48.343Z</updated>
+  <updated>2025-06-09T10:19:03.000Z</updated>
   <id>https://www.fomal.cc/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>my first blog</title>
-    <link href="https://www.fomal.cc/posts/d63b390f.html"/>
-    <id>https://www.fomal.cc/posts/d63b390f.html</id>
-    <published>2025-06-29T06:58:48.000Z</published>
-    <updated>2025-06-29T06:58:48.343Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
