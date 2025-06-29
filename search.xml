@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>html基础知识</title>
+      <link href="/posts/9e1b843a.html"/>
+      <url>/posts/9e1b843a.html</url>
+      
+        <content type="html"><![CDATA[<h1>一.HTML简介</h1><h2 id="1-网页">1.网页</h2><h3 id="1-1-参考资料">1.1 参考资料</h3><p><a href="https://www.bilibili.com/video/BV14J4114768/?from=search&seid=9517467869144033174" value="黑马pink老师资料"></a></p><h3 id="1-2-网页是什么">1.2 网页是什么</h3><p>网页是供浏览器解析进行阅读的文件</p><p>网页通常由图片、链接、文字、声音、视频等元素组成</p><h3 id="1-3-什么是html">1.3 什么是html</h3><p>HTML指的是超文本标记语言（Hyper Text Markup Language）,它是用来描述网页的一种语言。</p><p>HTML不是一种编程语言，而是一种标记语言（markup language）。 标记语言是一套标记标签（markup tag）。</p><p><strong>超文本含义</strong>：</p><ol><li>它可以加入图片、声音、动画、多媒体等内容（超越了文本限制 ）。</li><li>它还可以从一个文件跳转到另一个文件，与世界各地主机的文件连接（超级链接文本 ）</li></ol><h3 id="1-4-网页的形成">1.4 网页的形成</h3><p>网页由网页元素组成，这些元素通过html标签描述出来，然后通过浏览器解析并显示出来。</p><p>前端人员开发代码-&gt;浏览器进行渲染响应，从后端人员获取数据-&gt;展示到页面上形成网页</p><h2 id="2-常用浏览器及内核">2.常用浏览器及内核</h2><h3 id="2-1-常用浏览器">2.1 常用浏览器</h3><p>常用浏览器：IE，FireFox，Chorme，Safari（苹果所用浏览器），Opera</p><h3 id="2-2-常用浏览器内核">2.2 常用浏览器内核</h3><p>浏览器内核（渲染引擎）：负责读取网页内容，整理讯息，计算网页的显示方式并显示页面</p><table><thead><tr><th>浏览器</th><th>内核</th><th>备注</th></tr></thead><tbody><tr><td>IE</td><td>Trident</td><td>IE、猎豹安全、360、百度浏览器</td></tr><tr><td>firefox</td><td>Gecko</td><td>火狐浏览器内核</td></tr><tr><td>Safari</td><td>Webkit</td><td>苹果浏览器内核</td></tr><tr><td>Chrome/Opera</td><td>Blink</td><td>chrome/opera 浏览器内核</td></tr></tbody></table><p>目前新开发的浏览器为了方便起见，都开始使用chorme作为内核修改进行使用，而Chorme又是基于Safari更改形成的</p><h2 id="3-web标准">3.web标准</h2><p>Web标准是由W3C组织和其他标准化组织制定的一系列标准的集合</p><h3 id="3-1-为什么要有web标准">3.1 为什么要有web标准</h3><p>正如所有的东西都需要有一个规范，jdbc规范了数据库的使用，统一的接口可以使的用品使用更方便</p><p>尽管浏览器不同，但他们显示的页面排版有所差异，但所要显示的内容是一致的</p><p>遵循Web标准除了可以让不同的开发人员写出的页面更标准、更统一外，还有以下优点：</p><ol><li>让Web标准发展前景更为广阔</li><li>内容能被更广泛的设备访问。</li><li>更容易被搜索引擎了搜索。</li><li>降低网站流量费用。</li><li>易于维护。</li><li>提高页面浏览速度。</li></ol><h3 id="3-2-web标准的构成">3.2 web标准的构成</h3><table><thead><tr><th>标准</th><th>说明</th></tr></thead><tbody><tr><td>结构</td><td>结构对网页元素进行整理和分类，现阶段主要是HTML</td></tr><tr><td>表现</td><td>表现用于设置网页元素的版式、颜色、大小等外观样式，主要是指CSS</td></tr><tr><td>行为</td><td>行为是指网页模型的定义以及交互的编写，现阶段主要是JS</td></tr></tbody></table><p>web标准提出的最佳解决方案：<strong>结构，表现，行为相分离</strong></p><h1>二.html常用标签</h1><h2 id="2-1-基本语法规范">2.1 基本语法规范</h2><ul><li>html标签必须是由尖括号包围的关键词，如<html></li><li>html标签通常成对存在，例如<code>&lt;html&gt;</code>和<code>&lt;html/&gt;</code>，称为双标签。第一个是开始标签，第二个是结束标签。</li><li>有些标签是单个标签，如<img>,br等</li></ul><h2 id="2-2-标签关系">2.2 标签关系</h2><p>标签分为包含关系和并列关系</p><h2 id="2-3-基本结构标签">2.3 基本结构标签</h2><h3 id="2-3-1-必须使用标签">2.3.1 必须使用标签</h3><table><thead><tr><th>标签名</th><th>定义</th><th>说明</th></tr></thead><tbody><tr><td><html></td><td>html标签</td><td>页面中最大的标签</td></tr><tr><td><head></td><td>文档的头部</td><td>需要设置里面的title标签</td></tr><tr><td>title</td><td>文档的标题</td><td>用于设置网页标题显示的内容</td></tr><tr><td>body</td><td>文档的主体</td><td>文档的所有内容都包含在body中</td></tr></tbody></table><ul><li>可通过vscode的！一键生成</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
